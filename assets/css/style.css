@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: rgba(248, 248, 248, 0.548);
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 5px 1px #96b7d4;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding:10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+ background-color:#255daf;
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-media{
+    margin: 6px auto;
+    text-align: center;
+}
+.social-media :hover{
+    background-color: #e5ebfd83;
+}
+.social-media img{
+    width: 50px;
+    margin: 0.05;
+    box-shadow: 0 0 5px 1px #646464;;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.input-group{
+    position: absolute;
+    top: 180px;
+    width: 250px;
+    transition: .5s;
+}
+.input-field{
+    position: relative;
+    width: 100%;
+    padding:10px;
+    margin:5px 0;
+    display: block;
+    border: 0px;
+    border-top: 0;
+    border-left: 0;
+    border-left: 0;
+    border-bottom: 1px solid #255daf;
+    /* border-radius:10px ; */
+    outline: none;
+    background-color: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #255daf;
+    border: 0;
+    border-radius: 30px;
+    outline: 30px;
+}
+.check-box{
+    /* position: absolute; */
+    margin: 30px 10px 30px 0px; 
+
+}
+span{
+    position: absolute;
+    color: #1e3377;
+    bottom: 68px;
+    font size: 12px;
+    left: 20px;
+}
+#login{
+    left: 0px;
+}
+#register{
+    left: 450px;
+}
